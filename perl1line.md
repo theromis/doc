@@ -552,7 +552,7 @@ $html =~ s|<(/)?b>|<$1strong>|g
 
 # Extract all matches from a regular expression
 my @matches = $text =~ /regex/g;
-
+```
 
 PERL TRICKS
 -----------
