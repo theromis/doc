@@ -49,7 +49,7 @@ Table of contents:
 
 FILE SPACING 
 ------------
-```
+```Perl
 # Double space a file
 perl -pe '$\="\n"'
 perl -pe 'BEGIN { $\="\n" }'
@@ -579,13 +579,13 @@ and summary of commonly used special variables.
 
 You can read the original article series here:
 
-   http://www.catonmat.net/blog/perl-one-liners-explained-part-one/
-   http://www.catonmat.net/blog/perl-one-liners-explained-part-two/
-   http://www.catonmat.net/blog/perl-one-liners-explained-part-three/
-   http://www.catonmat.net/blog/perl-one-liners-explained-part-four/
-   http://www.catonmat.net/blog/perl-one-liners-explained-part-five/
-   http://www.catonmat.net/blog/perl-one-liners-explained-part-six/
-   http://www.catonmat.net/blog/perl-one-liners-explained-part-seven/
+   * http://www.catonmat.net/blog/perl-one-liners-explained-part-one/
+   * http://www.catonmat.net/blog/perl-one-liners-explained-part-two/
+   * http://www.catonmat.net/blog/perl-one-liners-explained-part-three/
+   * http://www.catonmat.net/blog/perl-one-liners-explained-part-four/
+   * http://www.catonmat.net/blog/perl-one-liners-explained-part-five/
+   * http://www.catonmat.net/blog/perl-one-liners-explained-part-six/
+   * http://www.catonmat.net/blog/perl-one-liners-explained-part-seven/
 
 
 CREDITS
