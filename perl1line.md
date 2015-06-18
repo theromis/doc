@@ -1,5 +1,4 @@
-Useful One-Line Scripts for Perl                    Dec 03 2013 | version 1.10
---------------------------------                    -----------   ------------
+#Useful One-Line Scripts for Perl                    Dec 03 2013 | version 1.10
 
 Compiled by Peteris Krumins (peter@catonmat.net, @pkrumins on Twitter)
 http://www.catonmat.net -- good coders code, great reuse
