@@ -1,4 +1,5 @@
-#Useful One-Line Scripts for Perl                    Dec 03 2013 | version 1.10
+Useful One-Line Scripts for Perl                    Dec 03 2013 | version 1.10
+------------------------------------------------------------------------------
 
 Compiled by Peteris Krumins (peter@catonmat.net, @pkrumins on Twitter)
 http://www.catonmat.net -- good coders code, great reuse
@@ -569,7 +570,7 @@ I have written an ebook based on the one-liners in this file. If you wish to
 support my work and learn more about these one-liners, you can get a copy
 of my ebook at:
 
-    http://www.catonmat.net/blog/perl-book/
+   http://www.catonmat.net/blog/perl-book/
 
 The ebook is based on the 7-part article series that I wrote on my blog.
 In the ebook I reviewed all the one-liners, improved explanations, added
@@ -578,13 +579,13 @@ and summary of commonly used special variables.
 
 You can read the original article series here:
 
-    http://www.catonmat.net/blog/perl-one-liners-explained-part-one/
-    http://www.catonmat.net/blog/perl-one-liners-explained-part-two/
-    http://www.catonmat.net/blog/perl-one-liners-explained-part-three/
-    http://www.catonmat.net/blog/perl-one-liners-explained-part-four/
-    http://www.catonmat.net/blog/perl-one-liners-explained-part-five/
-    http://www.catonmat.net/blog/perl-one-liners-explained-part-six/
-    http://www.catonmat.net/blog/perl-one-liners-explained-part-seven/
+   http://www.catonmat.net/blog/perl-one-liners-explained-part-one/
+   http://www.catonmat.net/blog/perl-one-liners-explained-part-two/
+   http://www.catonmat.net/blog/perl-one-liners-explained-part-three/
+   http://www.catonmat.net/blog/perl-one-liners-explained-part-four/
+   http://www.catonmat.net/blog/perl-one-liners-explained-part-five/
+   http://www.catonmat.net/blog/perl-one-liners-explained-part-six/
+   http://www.catonmat.net/blog/perl-one-liners-explained-part-seven/
 
 
 CREDITS
@@ -610,4 +611,4 @@ HAVE FUN
 
 I hope you found these one-liners useful. Have fun!
 
-#---end of file---
+##---end of file---
