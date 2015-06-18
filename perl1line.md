@@ -85,11 +85,11 @@ perl -00 -pe '$_.="\n"x4'
 
 # Fold a file so that every set of 10 lines becomes one tab-separated line
 perl -lpe '$\ = $. % 10 ? "\t" : "\n"'
-
+```
 
 LINE NUMBERING
 --------------
-
+```Perl
 # Number all lines in a file
 perl -pe '$_ = "$. $_"'
 
@@ -137,11 +137,11 @@ perl -E 'say~~grep{/^$/}<>'
 # Print the number of lines in a file that match a pattern (emulate grep -c)
 perl -lne '$a++ if /regex/; END {print $a+0}'
 perl -nE '$a++ if /regex/; END {say $a+0}'
-
+```
 
 CALCULATIONS
 ------------
-
+```Perl
 # Check if a number is a prime
 perl -lne '(1x$_) !~ /^1?$|^(11+?)\1+$/ && print "$_ is prime"'
 
@@ -256,11 +256,11 @@ perl -MSocket -le 'print unpack("N", inet_aton("127.0.0.1"))'
 perl -MSocket -le 'print inet_ntoa(pack("N", 2130706433))'
 perl -le '$ip = 2130706433; print join ".", map { (($ip>>8*($_))&0xFF) } reverse 0..3'
 perl -le '$ip = 2130706433; $, = "."; print map { (($ip>>8*($_))&0xFF) } reverse 0..3'
-
+```
 
 STRING CREATION AND ARRAY CREATION
 ----------------------------------
-
+```Perl
 # Generate and print the alphabet
 perl -le 'print a..z'
 perl -le 'print ("a".."z")'
@@ -316,11 +316,11 @@ perl -le 'print length "one-liners are great"'
 # Find the number of elements in an array
 perl -le '@array = ("a".."z"); print scalar @array'
 perl -le '@array = ("a".."z"); print $#array + 1'
-
+```
 
 TEXT CONVERSION AND SUBSTITUTION
 --------------------------------
-
+```Perl
 # ROT13 a string
 'y/A-Za-z/N-ZA-Mn-za-m/'
 
@@ -398,11 +398,11 @@ perl -pe '/baz/ && s/foo/bar/'
 
 # Binary patch a file (find and replace a given array of bytes as hex numbers)
 perl -pi -e 's/\x89\xD8\x48\x8B/\x90\x90\x48\x8B/g' file
-
+```
 
 SELECTIVE PRINTING AND DELETING OF CERTAIN LINES
 ------------------------------------------------
-
+```Perl
 # Print the first line of a file (emulate head -1)
 perl -ne 'print; exit'
 
@@ -493,11 +493,11 @@ perl -ne 'print unless $a{$_}++'
 
 # Print the first field (word) of every line (emulate cut -f 1 -d ' ')
 perl -alne 'print $F[0]'
-
+```
 
 HANDY REGULAR EXPRESSIONS
 -------------------------
-
+```Perl
 # Match something that looks like an IP address
 /^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/
 /^(\d{1,3}\.){3}\d{1,3}$/
@@ -556,7 +556,7 @@ my @matches = $text =~ /regex/g;
 
 PERL TRICKS
 -----------
-
+```Perl
 # Print the version of a Perl module
 perl -MModule -le 'print $Module::VERSION'
 perl -MLWP::UserAgent -le 'print $LWP::UserAgent::VERSION'
