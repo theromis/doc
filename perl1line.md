@@ -5,45 +5,45 @@ http://www.catonmat.net -- good coders code, great reuse
 
 Latest version of this file is always at:
 
-    http://www.catonmat.net/download/perl1line.txt
+   http://www.catonmat.net/download/perl1line.txt
 
 This file is also available in other languages:
 
-    Chinese: https://github.com/vinian/perl1line.txt
+   Chinese: https://github.com/vinian/perl1line.txt
 
-    Please email me peter@catonmat.net if you wish to translate it.
+   Please email me peter@catonmat.net if you wish to translate it.
 
 Perl One-Liners on Github:
  
-    https://github.com/pkrumins/perl1line.txt
+   https://github.com/pkrumins/perl1line.txt
 
-    You can send me pull requests over GitHub! I accept bug fixes,
-    new one-liners, translations and everything else related.
+   You can send me pull requests over GitHub! I accept bug fixes,
+   new one-liners, translations and everything else related.
 
 I have also written "Perl One-Liners Explained" ebook that''s based on
 this file. It explains all the one-liners here. Get it at:
 
-    http://www.catonmat.net/blog/perl-book/
+   http://www.catonmat.net/blog/perl-book/
 
 No Starch Press has published "Perl One-Liners" as a real book too:
 
-    http://nostarch.com/perloneliners
+   http://nostarch.com/perloneliners
 
 These one-liners work both on UNIX systems and Windows. Most likely your
 UNIX system already has Perl. For Windows get the Strawberry Perl at:
 
-    http://www.strawberryperl.com/
+   http://www.strawberryperl.com/
 
 Table of contents:
 
-    1. File Spacing
-    2. Line Numbering
-    3. Calculations
-    4. String Creation and Array Creation
-    5. Text Conversion and Substitution
-    6. Selective Printing and Deleting of Certain Lines    
-    7. Handy Regular Expressions
-    8. Perl tricks
+   1. File Spacing
+   2. Line Numbering
+   3. Calculations
+   4. String Creation and Array Creation
+   5. Text Conversion and Substitution
+   6. Selective Printing and Deleting of Certain Lines    
+   7. Handy Regular Expressions
+   8. Perl tricks
 
 
 FILE SPACING 
